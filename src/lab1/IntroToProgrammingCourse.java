@@ -1,6 +1,5 @@
 package lab1;
 
-import javax.swing.JOptionPane;
 
 /**
  * Describe responsibilities here. NOTE: this class has NO PREREQUISITES! Do not
@@ -18,7 +17,7 @@ public class IntroToProgrammingCourse extends Course{
 
     @Override
     public void setPrerequisites(String prerequisites) {
-       
+      
     }
 
     @Override

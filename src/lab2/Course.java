@@ -17,5 +17,7 @@ public interface Course {
     String getCourseNumber();
     void setCredits(double credits);
     double getCredits();
+    void setPrerequisites(String prerequisites);
+    String getPrerequisites();
     
 }
