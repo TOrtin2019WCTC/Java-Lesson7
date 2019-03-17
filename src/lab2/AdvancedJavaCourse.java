@@ -60,6 +60,7 @@ public class AdvancedJavaCourse implements Course {
     }
 
     
+    @Override
     public final void setPrerequisites(String prerequisites) {
         if (prerequisites == null || prerequisites.length() == 0) {
             JOptionPane.showMessageDialog(null,
